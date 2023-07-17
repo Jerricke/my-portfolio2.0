@@ -1,8 +1,19 @@
 import './Welcome.css';
+import { motion } from 'framer-motion';
 
 function Welcome() {
   return (
-    <div id="welcome">
+    <motion.div
+      animate={{
+        opacity: [1, 0, 0],
+        transitionEnd: {
+          display: 'none',
+        },
+      }}
+      transition={{ delay: 5.5, duration: 1, times: [0, 0.9, 1] }}
+      // exit={{ display: 'none' }}
+      id="welcome"
+    >
       <svg
         id="Jerrick"
         width="50%"
@@ -57,7 +68,7 @@ function Welcome() {
           strokeWidth="5"
         />
       </svg>
-    </div>
+    </motion.div>
   );
 }
 

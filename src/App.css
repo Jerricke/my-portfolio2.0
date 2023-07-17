@@ -11,7 +11,7 @@ body {
 * {
   color: var(--text);
   margin: 0;
-  overflow-y: hidden;
+  /* overflow-y: hidden; */
 }
 
 
@@ -33,10 +33,7 @@ header nav {
 header nav a{
   font-size: var(--step-1);
   text-decoration: none;
-}
-
-header nav hr {
-  /* display: inline-block; */
+  width: 8.5rem;
 }
 
 /* footer */

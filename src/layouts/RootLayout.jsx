@@ -6,7 +6,9 @@ export default function RootLayout() {
     <div className="root-layout">
       <header>
         <nav>
-          <NavLink to="/">Jerrick</NavLink>
+          <NavLink to="/" reloadDocument>
+            Jerrick
+          </NavLink>
           <hr />
         </nav>
       </header>
