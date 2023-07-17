@@ -29,5 +29,7 @@ module.exports = {
     'react/react-in-jsx-scope': 0,
     'react/button-has-type': 0,
     'no-shadow': 0,
+    'import/extensions': 0,
+    'import/no-extraneous-dependencies': 0,
   },
 };
