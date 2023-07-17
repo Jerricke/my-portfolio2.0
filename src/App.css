@@ -34,6 +34,7 @@ header nav a{
   font-size: var(--step-1);
   text-decoration: none;
   width: 8.5rem;
+  background-color: var(--primary);
 }
 
 /* footer */
@@ -63,3 +64,47 @@ main {
   max-width: 1200px;
   margin: 40px auto;
 }
+
+.extraFooter {
+  position: fixed;
+  top: 2%;
+  right: 5vw;
+  padding: 0.5%;
+  z-index: 2; 
+}
+
+.extraFooterBtn {
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: start;
+  gap: 2rem;
+}
+
+.extraFooterBtn li {
+  list-style: none;
+}
+
+.extraFooterBtn li a {
+  font-size: var(--step--1);
+  text-decoration: none;
+  width: 8.5rem;
+}
+
+.ticker {
+  font-size: var(--step-1);
+  color: var(--text);
+  text-align: center;
+  margin-top: 5rem;
+  z-index: 0;
+}
+
+.ticker div {
+  margin-inline: 1rem;
+}
+
+.ticker div p {
+  font-size: var(--step--2);
+}
+

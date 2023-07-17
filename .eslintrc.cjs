@@ -31,5 +31,6 @@ module.exports = {
     'no-shadow': 0,
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 0,
+    'react/prop-types': 0,
   },
 };

@@ -29,14 +29,14 @@ function HomeMenu() {
               animate={animation}
               transition={{ delay: 4.75, duration: 0.75 }}
             >
-              <NavLink>My Works</NavLink>
+              <NavLink to="work">My Works</NavLink>
             </motion.li>
             <motion.li
               initial={initial}
               animate={animation}
               transition={{ delay: 5, duration: 0.75 }}
             >
-              <NavLink>Let&apos;s Talk!</NavLink>
+              <NavLink to="talk">Let&apos;s Talk!</NavLink>
             </motion.li>
           </ul>
         </div>

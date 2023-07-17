@@ -1,0 +1,103 @@
+/* WorkLayout */
+
+.WorkLayout__container {
+  margin-top: 2rem;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 1rem;
+  justify-content: space-evenly;
+}
+
+.WorkLayout__projects {
+  height: 70vh;
+  /* border: 2px white solid; */
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+  gap: 2rem;
+  box-shadow: 5px 6px 5px 1px var(--text) ;
+}
+
+#projHeader {
+  position: -webkit-sticky;
+  position: sticky;
+  top:0;
+  text-align: center;
+  font-size: var(--step-3);
+  background-color: var(--tertiary);
+  z-index: 1;
+}
+
+.WorkLayout__details {
+  padding: 20%;
+  /* border: 2px white solid; */
+}
+
+.WorkLayout__details div {
+  display:block;
+  width:100%;
+  /* border: 2px white solid; */
+}
+
+.WorkLayout__card {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 550px;
+}
+
+.WorkLayout__card h1 {
+  font-size: var(--step-2);
+}
+.WorkLayout__card img {
+  width: 200px;
+}
+
+
+.card {
+  width: 200px;
+  border-radius: 16px;
+  position: relative;
+  padding: 0.25rem;
+  border: 2px var(--text) solid;
+}
+
+.card img {
+  display: block;
+  opacity: 1;
+  width: 100%;
+  height: auto;
+  transition: 0.5s;
+  border-radius: 16px;
+}
+
+.card .overlay {
+  position: absolute;
+  padding: 6px;
+  opacity: 0;
+  top: 50%;
+  left: 50%;
+  transition: 0.5s;
+  transform: translate(-50%, -50%);
+}
+
+.card .overlay button {
+  color: var(--text);
+  background: red;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card:hover img {
+  opacity: 0.32;
+}
+
+.card:hover .overlay {
+  opacity: 1;
+}

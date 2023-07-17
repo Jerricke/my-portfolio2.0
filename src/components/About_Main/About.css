@@ -1,5 +1,4 @@
 .aboutSection {
-    background-color: var(--medium);
     display: flex;
     margin-top: 10%;
     margin-inline: 3%;
@@ -32,32 +31,6 @@
     margin-top: 5%;
 }
   
-.extraFooter {
-    position: fixed;
-    top: 2%;
-    right: 5vw;
-    padding: 0.5%;
-    z-index: 2; 
-}
-
-.extraFooterBtn {
-    display: flex;
-    flex-direction: row;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: start;
-    gap: 2rem;
-}
-
-.extraFooterBtn li {
-    list-style: none;
-}
-
-.extraFooterBtn li a {
-    font-size: var(--step--1);
-    text-decoration: none;
-    width: 8.5rem;
-}
   
 /* ABOUT SECTION */
 

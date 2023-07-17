@@ -63,10 +63,10 @@ export default function AboutMain() {
       <div className="extraFooter">
         <ul className="extraFooterBtn">
           <li>
-            <NavLink>My Work</NavLink>
+            <NavLink to="../work">My Work</NavLink>
           </li>
           <li>
-            <NavLink to="contact">Contact</NavLink>
+            <NavLink to="../contact">Contact</NavLink>
           </li>
         </ul>
       </div>
