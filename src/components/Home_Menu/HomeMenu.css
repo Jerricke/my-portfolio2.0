@@ -40,10 +40,25 @@
     text-align: center;
     padding: 0.5rem 0;
     background: linear-gradient(var(--secondary), var(--tertiary));
-    
+    border-radius: 1rem;
+    transition: 0.5s;
 }
+
+.homeMenu__router li:hover {
+    scale: 1.2;
+    background: linear-gradient(var(--tertiary), var(--text));
+    border: 2px var(--secondary) solid;;
+}
+
 .homeMenu__router li a {
     display: block;
     text-decoration: none;
-    font-size: var(--step-1);
+    font-size: var(--step-3);
+    font-family: 'Raleway';
+    font-weight: bold;
+    
+}
+
+.homeMenu__router li a:hover {
+    color: var(--primary);
 }

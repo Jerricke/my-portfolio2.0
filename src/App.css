@@ -1,10 +1,10 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Raleway:ital@1&display=swap');
 
 body {
   margin: 0;
   padding: 0 5%;
-  font-family: "Poppins";
+  font-family: "Nunito", sans-serif;
   background-color: var(--primary);
 }
 
@@ -19,15 +19,15 @@ body {
 header {
   position: fixed;
   top: 0;
-  width: 80vw;
-  padding: 1% 5%;
+  width: 90vw;
+  padding: 0.5%;
+  background-color: var(--primary);
   z-index: 1; 
 }
 
 header nav {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
 }
 
 header nav a{
@@ -40,7 +40,7 @@ header nav a{
 footer {
   position: fixed;
   bottom: 0;
-  width: 80vw;
+  width: 86vw;
   padding: 1% 5%;
   z-index: 1; 
 }

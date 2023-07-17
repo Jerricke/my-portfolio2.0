@@ -1,0 +1,149 @@
+.aboutSection {
+    background-color: var(--medium);
+    display: flex;
+    margin-top: 10%;
+    margin-inline: 3%;
+    flex-flow: row wrap;
+    gap: 2rem;
+  }
+  
+  .aboutSection .aboutMe {
+    flex: 1 1 20rem
+  }
+  
+  .aboutSection .aboutMe h1 {
+    font-size: var(--step-3);
+    padding-bottom: 1rem;
+  }
+
+  .aboutSection .aboutMe hr {
+    margin-bottom: 1rem;
+  }
+
+  .aboutSection .aboutMe p{
+    font-size: var(--step--2);
+    padding-bottom: 1rem;
+  }
+  
+  .aboutSection .aboutAnimation {
+    flex: 1 1 30rem;
+    width: 40rem;
+    height: auto;
+    margin-top: 5%;
+}
+  
+.extraFooter {
+    position: fixed;
+    top: 2%;
+    right: 5vw;
+    padding: 0.5%;
+    z-index: 2; 
+}
+
+.extraFooterBtn {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: start;
+    gap: 2rem;
+}
+
+.extraFooterBtn li {
+    list-style: none;
+}
+
+.extraFooterBtn li a {
+    font-size: var(--step--1);
+    text-decoration: none;
+    width: 8.5rem;
+}
+  
+/* ABOUT SECTION */
+
+@media (max-width: 425px) {
+.aboutSection {
+    padding: 1.5rem
+}
+.aboutSection .aboutMe h1 {
+    font-size: 2rem;
+}
+.aboutSection .aboutMe p{
+    font-size: 1rem;
+}
+}
+
+
+@media (max-width: 320px) {
+.aboutSection {
+    padding: 1rem
+}
+.aboutSection .aboutMe h1 {
+    font-size: 1.75rem;
+}
+.aboutSection .aboutMe p{
+    font-size: 0.8rem;
+}
+}
+
+
+#laptopline1,  
+#laptopline4, 
+#laptopline5 {
+    animation: laptopline 10s linear infinite;
+}
+
+#laptopline2, 
+#laptopline3 {
+    animation: laptopline 7s ease infinite;
+}
+
+#laptopline6,
+#laptopline6 {
+    animation: laptopline 5s ease-out infinite;
+}
+
+#head {
+    animation: headBob 5s ease infinite;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+
+#hand {
+    animation: handMove 5s ease infinite;
+}
+
+@keyframes laptopline {
+    0%,100% {
+        translate: -2%;
+    }
+    50% {
+        translate: 2%;
+    }
+}
+
+@keyframes headBob {
+    0%,100% {
+        transform: rotateZ(-10deg);
+    }
+    50% {
+        transform: rotateZ(10deg);
+    }
+}
+
+@keyframes handMove {
+    0%,100%{
+        translate: -2% 1%;
+    }
+
+    30% {
+        translate: 0% -1%;
+    }
+    50% {
+        translate: 2% 1%;
+    }
+
+    80% {
+        translate: 1% -2%;
+    }
+}

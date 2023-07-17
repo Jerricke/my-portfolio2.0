@@ -16,53 +16,53 @@
 }
 
 #Jerrick {
-    animation: fill-animation 1s ease forwards 3s;
+    animation: fill-animation 1s ease forwards 2s;
 }
 
 #Jerrick path:nth-child(1) {
     stroke-dasharray: 349;
     stroke-dashoffset: 349;
-    animation: line-animation 2s ease forwards;
+    animation: line-animation 1s ease forwards;
 }
 #Jerrick path:nth-child(2) {
     stroke-dasharray: 573;
     stroke-dashoffset: 573;
-    animation: line-animation 2s ease forwards 0.2s;
+    animation: line-animation 1s ease forwards 0.2s;
 }
 #Jerrick path:nth-child(3) {
     stroke-dasharray: 273.5;
     stroke-dashoffset: 273.5;
-    animation: line-animation 2s ease forwards 0.4s;
+    animation: line-animation 1s ease forwards 0.4s;
 }
 #Jerrick path:nth-child(4) {
     stroke-dasharray: 273.5;
     stroke-dashoffset: 273.5;
-    animation: line-animation 2s ease forwards 0.6s;
+    animation: line-animation 1s ease forwards 0.6s;
 }
 #Jerrick path:nth-child(5) {
     stroke-dasharray: 520;
     stroke-dashoffset: 520;
-    animation: line-animation 2s ease forwards 0.8s;
+    animation: line-animation 1s ease forwards 0.8s;
 }
 #Jerrick path:nth-child(6) {
     stroke-dasharray: 516;
     stroke-dashoffset: 516;
-    animation: line-animation 2s ease forwards 1s;
+    animation: line-animation 1s ease forwards 1s;
 }
 #Jerrick path:nth-child(7) {
     stroke-dasharray: 573;
     stroke-dashoffset: 573;
-    animation: line-animation 2s ease forwards 1.2s;
+    animation: line-animation 1s ease forwards 1.2s;
 }
 #Jerrick path:nth-child(8) {
     stroke-dasharray: 516;
     stroke-dashoffset: 516;
-    animation: line-animation 2s ease forwards 1.4s;
+    animation: line-animation 1s ease forwards 1.4s;
 }
 #Jerrick path:nth-child(9) {
     stroke-dasharray: 573;
     stroke-dashoffset: 573;
-    animation: line-animation 2s ease forwards 1.6s;
+    animation: line-animation 1s ease forwards 1.6s;
 }
 
 @keyframes line-animation {

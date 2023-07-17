@@ -10,7 +10,7 @@ function Welcome() {
           display: 'none',
         },
       }}
-      transition={{ delay: 5.5, duration: 1, times: [0, 0.9, 1] }}
+      transition={{ delay: 3.5, duration: 1, times: [0, 0.9, 1] }}
       // exit={{ display: 'none' }}
       id="welcome"
     >
