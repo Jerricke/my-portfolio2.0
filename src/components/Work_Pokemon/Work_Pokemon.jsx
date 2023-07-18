@@ -1,7 +1,8 @@
-import './Work_Pokemon.css';
 import { motion } from 'framer-motion';
+import CommentsDiv from '../Work_Comments/Work_CommentsDiv';
+import './Work_Pokemon.css';
 
-export default function PokemonApp() {
+export default function PokemonApp({ data }) {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -54,6 +55,14 @@ export default function PokemonApp() {
         dignissimos voluptatem perspiciatis unde tempore provident molestiae rem
         earum autem est repellendus, expedita excepturi, sint repudiandae quas.
       </p>
+
+      <CommentsDiv data={data} set="pokemonApp" />
     </motion.div>
   );
 }
+
+// loader function
+export const pokemonLoader = async () => {
+  const res = await fetch('/api/pokemonApp');
+  return res.json();
+};

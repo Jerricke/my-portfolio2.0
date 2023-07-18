@@ -1,0 +1,66 @@
+.commentSection {
+    margin-top: 5%;
+    margin-inline: 10%;
+    background-color: var(--secondary);
+    box-shadow: 2px 2px 2px 2px  rgb(54, 43, 57) ;
+    padding: 2% 5%;
+}
+
+.commentSection h2 {
+    font-size: var(--step-2);
+    text-align: center;
+}
+
+
+
+.commentItem h4{
+    font-size: var(--step--1);
+    margin-bottom: 0.5rem;
+}
+
+.commentItem p {
+    font-size: var(--step--3);
+}
+
+.commentItem hr {
+    margin-bottom: 0.5rem;;
+}
+
+.commentForm {
+    background-color: var(--primary);
+    padding: 2%;
+    margin-top: 2rem;
+}
+.commentForm input {
+    background-color: var(--primary);
+    border: none;
+    border-bottom: 2px solid var(--text);
+    color: var(--text);
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.commentForm h1 {
+    font-size: var(--step-0);
+}
+
+#cName {
+    font-size: var(--step--1);
+}
+
+#cComment {
+    font-size: var(--step--3);
+}
+
+#cSubmit {
+    background-color: var(--primary);
+    border: 2px var(--text) solid;
+    border-radius: 10px;
+    padding: 0.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.error {
+    border: 2px maroon solid;
+}

@@ -41,7 +41,7 @@ header nav a{
 footer {
   position: fixed;
   bottom: 0;
-  width: 86vw;
+  right: 0;
   padding: 1% 5%;
   z-index: 1; 
 }
@@ -51,7 +51,7 @@ footer nav {
   flex-direction: row;
   margin: 0 auto;
   align-items: center;
-  justify-content: end;
+  justify-content: space-evenly;
   gap: 1rem;
 }
 

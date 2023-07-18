@@ -32,5 +32,6 @@ module.exports = {
     'import/extensions': 0,
     'import/no-extraneous-dependencies': 0,
     'react/prop-types': 0,
+    'react/jsx-no-bind': 0,
   },
 };

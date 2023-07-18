@@ -16,6 +16,8 @@ import About from './pages/About';
 import Contact from './pages/Contact';
 import Work1 from './pages/Work1';
 import Work2 from './pages/Work2';
+import { pokemonLoader } from './components/Work_Pokemon/Work_Pokemon';
+import { portfolioLoader } from './components/Work_Portfolio/Work_Portfolio';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -24,8 +26,8 @@ const router = createBrowserRouter(
       <Route path="about" element={<About />} />
       <Route path="contact" element={<Contact />} />
       <Route path="work" element={<WorkLayout />}>
-        <Route path="PokemonApp" element={<Work1 />} />
-        <Route path="Portfolio" element={<Work2 />} />
+        <Route path="PokemonApp" loader={pokemonLoader} element={<Work1 />} />
+        <Route path="Portfolio" loader={portfolioLoader} element={<Work2 />} />
       </Route>
     </Route>
   )
