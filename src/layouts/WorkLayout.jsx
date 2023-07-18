@@ -1,4 +1,5 @@
-import { NavLink } from 'react-router-dom';
+import { NavLink, Outlet } from 'react-router-dom';
+import { motion } from 'framer-motion';
 import TechStack from '../components/Work_Ticker/Work_Ticker';
 import './WorkLayout.css';
 import WorkCard from '../components/Work_Cards/WorkCard';
@@ -8,33 +9,22 @@ export default function WorkLayout() {
     <>
       <TechStack />
       <div className="WorkLayout__container">
+        <motion.h1
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 1, ease: 'easeIn' }}
+          id="projHeader"
+        >
+          Projects
+        </motion.h1>
         <div className="WorkLayout__projects">
-          <h1 id="projHeader">Projects</h1>
-          <WorkCard />
-          <WorkCard />
-          <WorkCard />
+          <WorkCard title="Pokemon App" path="PokemonApp" />
+          <WorkCard title="Portfolio Website" path="Portfolio" />
+          {/* <WorkCard title="work3" path="work3" /> */}
         </div>
 
         <div className="WorkLayout__details">
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-            adipisci suscipit pariatur cumque at. Molestiae praesentium rerum
-            corrupti voluptatem provident. Fuga perferendis quae quos itaque
-            aliquam voluptatum vel tempora aliquid?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-            adipisci suscipit pariatur cumque at. Molestiae praesentium rerum
-            corrupti voluptatem provident. Fuga perferendis quae quos itaque
-            aliquam voluptatum vel tempora aliquid?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
-            adipisci suscipit pariatur cumque at. Molestiae praesentium rerum
-            corrupti voluptatem provident. Fuga perferendis quae quos itaque
-            aliquam voluptatum vel tempora aliquid?
-          </p>
-          <div className="WorkLayout__comments">Comments</div>
+          <Outlet />
         </div>
       </div>
       <div className="extraFooter">
