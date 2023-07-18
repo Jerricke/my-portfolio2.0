@@ -16,7 +16,24 @@ export default function WorkLayout() {
         </div>
 
         <div className="WorkLayout__details">
-          right side
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+            adipisci suscipit pariatur cumque at. Molestiae praesentium rerum
+            corrupti voluptatem provident. Fuga perferendis quae quos itaque
+            aliquam voluptatum vel tempora aliquid?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+            adipisci suscipit pariatur cumque at. Molestiae praesentium rerum
+            corrupti voluptatem provident. Fuga perferendis quae quos itaque
+            aliquam voluptatum vel tempora aliquid?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi
+            adipisci suscipit pariatur cumque at. Molestiae praesentium rerum
+            corrupti voluptatem provident. Fuga perferendis quae quos itaque
+            aliquam voluptatum vel tempora aliquid?
+          </p>
           <div className="WorkLayout__comments">Comments</div>
         </div>
       </div>

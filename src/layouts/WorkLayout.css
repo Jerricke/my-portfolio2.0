@@ -29,11 +29,12 @@
 }
 
 .WorkLayout__details {
-  padding: 20%;
+  padding: 1rem;
   /* border: 2px white solid; */
 }
 
-.WorkLayout__details div {
+.WorkLayout__details div,
+.WorkLayout__details p {
   display:block;
   width:100%;
   /* border: 2px white solid; */
