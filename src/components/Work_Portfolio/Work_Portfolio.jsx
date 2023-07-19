@@ -1,7 +1,6 @@
 import { motion } from 'framer-motion';
-import CommentsDiv from '../Work_Comments/Work_CommentsDiv';
 
-export default function Portfolio({ data }) {
+export default function Portfolio() {
   return (
     <motion.div
       initial={{ opacity: 0 }}
@@ -54,13 +53,6 @@ export default function Portfolio({ data }) {
         dignissimos voluptatem perspiciatis unde tempore provident molestiae rem
         earum autem est repellendus, expedita excepturi, sint repudiandae quas.
       </p>
-      <CommentsDiv data={data} />
     </motion.div>
   );
 }
-
-// loader function
-export const portfolioLoader = async () => {
-  const res = await fetch('/api/portfolioApp');
-  return res.json();
-};
