@@ -25,7 +25,7 @@
 
 .contact__form {
     margin-inline: 5%;
-    width: 70%;
+    width: 60vw;
     box-sizing: border-box;
 }
 
@@ -83,13 +83,13 @@ strong {
     background-color: var(--text);
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 1024px) {
     .contact__form {
         width: 30vw;
     }
 }
 
-@media (min-width: 425px) {
+@media (max-width: 425px) {
     .contact__form {
         width: 80%;
     }
