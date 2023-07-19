@@ -1,5 +1,5 @@
 .contact__wrapper {
-    margin-top: 15%;
+    margin-top: 10%;
     display:flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -89,3 +89,8 @@ strong {
     }
 }
 
+@media (min-width: 425px) {
+    .contact__form {
+        width: 80%;
+    }
+}

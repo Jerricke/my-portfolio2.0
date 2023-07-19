@@ -79,3 +79,14 @@
         fill: var(--text);
     }
 }
+
+@media (max-width: 1024px) {
+    svg {
+        width:70%;
+    }
+}
+@media (max-width: 425px) {
+    svg {
+        width:90%;
+    }
+}

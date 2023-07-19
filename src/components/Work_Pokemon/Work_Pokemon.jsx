@@ -1,6 +1,5 @@
 import { motion } from 'framer-motion';
 import CommentsDiv from '../Work_Comments/Work_CommentsDiv';
-import './Work_Pokemon.css';
 
 export default function PokemonApp({ data }) {
   return (

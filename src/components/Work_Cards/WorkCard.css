@@ -1,0 +1,53 @@
+.card {
+    width: 20rem;
+    border-radius: 16px;
+    position: relative;
+    padding: 0.25rem;
+    border: 2px var(--text) solid;
+    margin: auto;
+  }
+  
+  .card img {
+    display: block;
+    opacity: 1;
+    width: 100%;
+    height: auto;
+    transition: 0.5s;
+    border-radius: 16px;
+  }
+  
+  .card .overlay {
+    position: absolute;
+    padding: 1%;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transition: 0.5s;
+    transform: translate(-50%, -50%);
+  }
+  
+  .card .overlay a {
+    color: var(--text);
+    background: var(--tertiary);
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .card:hover img {
+    opacity: 0.32;
+  }
+  
+  .card:hover .overlay {
+    opacity: 1;
+  }
+
+  @media (max-width: 425px) {
+    .card {
+      width: 55vw;
+    }
+  }

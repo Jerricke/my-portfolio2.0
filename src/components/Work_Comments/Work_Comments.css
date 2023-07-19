@@ -64,3 +64,16 @@
 .error {
     border: 2px maroon solid;
 }
+
+
+@media (max-width: 768px) {
+    .commentSection {
+        margin-inline: 5%;
+    }
+}
+
+@media (max-width: 425px) {
+    .commentSection {
+        margin-inline: 0;
+    }
+}

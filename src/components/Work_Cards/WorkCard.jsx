@@ -1,6 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import placeholder from '../../assets/test.jpeg';
+import './WorkCard.css';
 
 export default function WorkCard({ path, title = 'title', img = placeholder }) {
   return (

@@ -62,3 +62,52 @@
 .homeMenu__router li a:hover {
     color: var(--primary);
 }
+
+@media (max-width: 1024px) {
+    .homeMenu__wrapper {
+        margin-top: 7rem;
+    }
+    .homeMenu__image {
+        width: 38vw;
+        height: auto;
+        align-self: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .homeMenu__wrapper {
+        margin-top: 7rem;
+    }
+    
+    .homeMenu__nav {
+        margin: 0;
+        padding-inline: 0;
+        height: 50vh;
+        width: 40vh;
+    }
+
+    .homeMenu__image {
+        width: 50vw;
+        height: auto;
+        align-self: center;
+    }
+}
+
+@media (max-width: 425px) {
+    .homeMenu__wrapper {
+        margin-top: 4rem;
+    }
+    .homeMenu__image {
+        width: auto;
+        height: 40vh;
+    }
+    .homeMenu__nav{
+        height: 100%;
+        width: 60%;
+        margin-top: 1.5rem;
+        padding: 0;
+    }
+    .homeMenu__router {
+        gap: 2rem;
+    }
+}
