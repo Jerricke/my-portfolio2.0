@@ -7,8 +7,7 @@
 }
 
 .contact__description {
-    width: 40rem;
-    flex-basis: 30rem;
+    width: 30vw;
     align-self: end;
 }
 
@@ -83,7 +82,11 @@ strong {
     background-color: var(--text);
 }
 
-@media (max-width: 1024px) {
+
+@media (max-width: 768px) {
+    .contact__description {
+        width: 55vw;
+    }
     .contact__form {
         width: 60vw;
     }
