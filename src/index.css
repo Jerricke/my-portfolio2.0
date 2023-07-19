@@ -10,4 +10,8 @@
     --step-1: clamp(1.35rem, calc(1.02rem + 1.64vw), 2.50rem);
     --step-2: clamp(1.62rem, calc(1.19rem + 2.15vw), 3.13rem);
     --step-3: clamp(1.94rem, calc(1.38rem + 2.80vw), 3.91rem);
+    
+    --toastify-color-success: var(--primary);
+    --toastify-font-family: "nunito", "sans-serif";
+    --toastify-text-color-success: var(--text)
   }

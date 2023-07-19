@@ -36,7 +36,7 @@ function HomeMenu() {
               animate={animation}
               transition={{ delay: 5, duration: 0.75 }}
             >
-              <NavLink to="talk">Let&apos;s Talk!</NavLink>
+              <NavLink to="contact">Let&apos;s Talk!</NavLink>
             </motion.li>
           </ul>
         </div>

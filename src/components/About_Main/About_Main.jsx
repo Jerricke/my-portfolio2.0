@@ -16,9 +16,7 @@ export default function AboutMain() {
         className="aboutSection"
       >
         <div className="aboutMe ">
-          <h1>
-            <strong>My Passion</strong>
-          </h1>
+          <h1>My Passion</h1>
           <hr />
           <motion.p
             initial={initial}
