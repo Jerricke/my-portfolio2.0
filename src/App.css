@@ -37,6 +37,31 @@ header nav a{
   background-color: var(--primary);
 }
 
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  footer {
+    position: fixed;
+    bottom: 0;
+    right: 10rem;
+    padding: 1% 5%;
+    z-index: 1; 
+  }
+  
+  footer nav {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0.5rem;
+  }
+  
+  footer nav a {
+    font-size: var(--step-1);
+  }
+  
+}
+
 /* footer */
 footer {
   position: fixed;
