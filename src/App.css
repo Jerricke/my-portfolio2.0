@@ -57,7 +57,7 @@ footer {
 
 footer nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   gap: 0.5rem;
 }
 
@@ -65,12 +65,6 @@ footer nav a {
   font-size: var(--step-1);
 }
 
-@supports (-webkit-touch-callout: none) {
-  /* CSS specific to iOS devices */ 
-  footer nav {
-    flex-direction: row;
-  }
-}
 
 /* page content */
 main {
