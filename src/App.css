@@ -49,7 +49,7 @@ header nav a{
   
   footer nav {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     gap: 0.5rem;
   }
   
