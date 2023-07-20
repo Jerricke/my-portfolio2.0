@@ -65,6 +65,13 @@ footer nav a {
   font-size: var(--step-1);
 }
 
+@supports (-webkit-touch-callout: none) {
+  /* CSS specific to iOS devices */ 
+  footer nav {
+    flex-direction: row;
+  }
+}
+
 /* page content */
 main {
   max-width: 1200px;
