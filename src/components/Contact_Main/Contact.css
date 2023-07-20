@@ -75,6 +75,7 @@ strong {
     margin-inline: auto;
     display: block;
     margin-bottom: 1rem;
+    padding: 0.5rem
 }
 
 .contact__form button:hover {
