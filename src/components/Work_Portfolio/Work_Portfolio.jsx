@@ -15,43 +15,42 @@ export default function Portfolio() {
       <div className="spacer" />
       <h3>About the project</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio
-        veniam esse quas ullam iusto deserunt aspernatur est facere ea! Amet
-        impedit aliquid repudiandae tempore illum cupiditate, exercitationem
-        tenetur, nisi maiores dignissimos quae. Illum reprehenderit, sit
-        perferendis ab sapiente culpa eaque ipsam eligendi accusantium tempore
-        voluptate, expedita nulla repellat eius.
+        This project involves my first time ever building a portfolio app. I set
+        out to create a portfolio app that allows me to test my skills and learn
+        new techniques while also preserving quality and coherency.
       </p>
       <h3>Challenges</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime
-        architecto quibusdam id, velit odit ullam perspiciatis at? Ab molestiae,
-        distinctio quibusdam pariatur eius ullam consequatur deserunt et sunt
-        animi nihil odit sit illum nobis nam, exercitationem quo, unde quaerat
-        eveniet molestias sint. Esse quia sit nisi inventore modi nulla!
+        While building the portfolio app, I struggled to bring the designs to
+        live and the flow of the app was inconsistent and the code files were
+        unorganized, which can be attributed to the lack of pre-planning before
+        the coding process. In addition, another great challenge was researching
+        and learning new methods to enhance the user experience, and then
+        implementing those new methods onto the web app. I found myself diving
+        into more and more new content while working on the project, thus
+        resulting in very slow progress.
       </p>
       <h3>Solution</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia sapiente,
-        corporis, velit porro provident eius corrupti aperiam facilis autem quos
-        exercitationem minima sint ea ipsum quae libero. Magnam labore ea optio
-        quisquam quidem. Repellendus, reprehenderit nobis possimus libero
-        magnam, optio nostrum odio maxime labore laboriosam beatae. Illo
-        corporis dolores, modi dicta hic dignissimos sapiente illum rerum quia,
-        vitae voluptatum qui eum aspernatur porro officiis laudantium voluptas
-        laboriosam atque omnis. Soluta nulla, reprehenderit vel quia cupiditate
-        velit earum? Alias dolores omnis quisquam laboriosam cum esse quod
-        voluptatum. Velit nulla dolore voluptate, quo, veniam illo consequuntur
-        quas odit perferendis eveniet consectetur quaerat?
+        I decided to scrap my original attempt at the portfolio application, and
+        using Figma, I was able to properly sketch out my plan on a drawing
+        board. With a clearer objective and vision, I broke down the website to
+        mini components and implemented them one at a time. I played around with
+        different node packages and added more animations and functionalities
+        way quicker and more efficiently than the first iteration of my
+        portfolio. Although I had to start from scratch and build another
+        portfolio app, I was able to make use of what I had learned from that
+        run, and build on it.
       </p>
       <h3>What I learned</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magni
-        molestias vitae dolore, ullam esse asperiores dolor, molestiae
-        consequatur explicabo iusto iure mollitia quisquam, voluptatibus neque
-        consequuntur reprehenderit atque beatae? Magnam possimus sequi,
-        dignissimos voluptatem perspiciatis unde tempore provident molestiae rem
-        earum autem est repellendus, expedita excepturi, sint repudiandae quas.
+        Through building my personal portfolio website, I picked up a wide range
+        of skills, such as: React Routing, Animations, Design, Project-planning,
+        Media Queries, Utilizing NPM Packages to send email forms, setup RESTful
+        APIs, setup proxy servers, deploying a website with a custom domain, and
+        more. I had a lot of fun bringing my vision to live, and although this
+        website isn&apos;t perfect, I was able to gain familiarity with lots of
+        technique that will help me build better applications in the future
       </p>
     </motion.div>
   );

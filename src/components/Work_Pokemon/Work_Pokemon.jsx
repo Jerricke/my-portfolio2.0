@@ -12,46 +12,52 @@ export default function PokemonApp() {
       <a href="https://github.com/Jerricke/phase-1-project">
         https://github.com/Jerricke/phase-1-project
       </a>
+      <div className="imageContainer">
+        <img src="/Start.png" alt="start" />
+        <img src="/Play.png" alt="play" />
+        <img src="/Bag.png" alt="bag" />
+        <img src="/Combat.png" alt="combat" />
+      </div>
       <div className="spacer" />
       <h3>About the project</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero odio
-        veniam esse quas ullam iusto deserunt aspernatur est facere ea! Amet
-        impedit aliquid repudiandae tempore illum cupiditate, exercitationem
-        tenetur, nisi maiores dignissimos quae. Illum reprehenderit, sit
-        perferendis ab sapiente culpa eaque ipsam eligendi accusantium tempore
-        voluptate, expedita nulla repellat eius.
+        During the first phase of the Flatiron Software Engineering bootcamp, we
+        were challenged to build a simple website that utilizes one single HTML
+        page with CSS and Javascript. I decided to build a Pokemon app that is
+        able to run on the browser. There were many different features added
+        into the web application and I am super proud of how my first ever
+        project turned out.
       </p>
       <h3>Challenges</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat maxime
-        architecto quibusdam id, velit odit ullam perspiciatis at? Ab molestiae,
-        distinctio quibusdam pariatur eius ullam consequatur deserunt et sunt
-        animi nihil odit sit illum nobis nam, exercitationem quo, unde quaerat
-        eveniet molestias sint. Esse quia sit nisi inventore modi nulla!
+        Initially, I planned on creating a coordinate system with a moveable
+        character on it. The user would be able to use arrow keys to navigate
+        the play-area and encoutner Pokemons. The main challenge was setting up
+        a proper combat system during the encounters, where users would be able
+        to use sepcific skills of their pokemon. Then after, the enemy pokemon
+        would attack the player&apos;s current active pokemon. The greatest
+        challenge was to make the data persist through each encounters.
       </p>
       <h3>Solution</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quia sapiente,
-        corporis, velit porro provident eius corrupti aperiam facilis autem quos
-        exercitationem minima sint ea ipsum quae libero. Magnam labore ea optio
-        quisquam quidem. Repellendus, reprehenderit nobis possimus libero
-        magnam, optio nostrum odio maxime labore laboriosam beatae. Illo
-        corporis dolores, modi dicta hic dignissimos sapiente illum rerum quia,
-        vitae voluptatum qui eum aspernatur porro officiis laudantium voluptas
-        laboriosam atque omnis. Soluta nulla, reprehenderit vel quia cupiditate
-        velit earum? Alias dolores omnis quisquam laboriosam cum esse quod
-        voluptatum. Velit nulla dolore voluptate, quo, veniam illo consequuntur
-        quas odit perferendis eveniet consectetur quaerat?
+        By using a variable of &quot;isCombat&quot;, I was able to setup a turn
+        base system where after each player action, the isCombat boolean would
+        be flipped and the enemy pokemon would be prompted to attack. To enable
+        persisting data, I created a reusable function that patches the data to
+        the db.json server, and the function would be called every time a major
+        event occurs, for example, when a pokemon faints, when items are used,
+        or when combat is finished.
       </p>
       <h3>What I learned</h3>
       <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum magni
-        molestias vitae dolore, ullam esse asperiores dolor, molestiae
-        consequatur explicabo iusto iure mollitia quisquam, voluptatibus neque
-        consequuntur reprehenderit atque beatae? Magnam possimus sequi,
-        dignissimos voluptatem perspiciatis unde tempore provident molestiae rem
-        earum autem est repellendus, expedita excepturi, sint repudiandae quas.
+        With this being my first ever coding project, I learned a lot of basic
+        skills. A few notable ones are CSS grids, creating reusable functions,
+        building complex state-like functions in basic javascript, and gaining
+        familiarity with setting up mock databases with a json server. I
+        thoroughly enjoyed building this webapp, although it is relatively
+        simple in terms of functionality, I was able to learn a lot about the
+        process of learning while coding, as well as debugging and fixing code
+        errors.
       </p>
     </motion.div>
   );

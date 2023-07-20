@@ -3,6 +3,7 @@ import { motion } from 'framer-motion';
 import TechStack from '../components/Work_Ticker/Work_Ticker';
 import './WorkLayout.css';
 import WorkCard from '../components/Work_Cards/WorkCard';
+import Portfolio from '../assets/Portfolio.png';
 
 export default function WorkLayout() {
   return (
@@ -19,7 +20,11 @@ export default function WorkLayout() {
         </motion.h1>
         <div className="WorkLayout__projects">
           <WorkCard title="Pokemon App" path="PokemonApp" />
-          <WorkCard title="Portfolio Website" path="Portfolio" />
+          <WorkCard
+            img={Portfolio}
+            title="Portfolio Website"
+            path="Portfolio"
+          />
           {/* <WorkCard title="work3" path="work3" /> */}
         </div>
 
