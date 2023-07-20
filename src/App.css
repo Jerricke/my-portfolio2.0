@@ -42,7 +42,7 @@ header nav a{
   footer {
     position: fixed;
     bottom: 0;
-    right: 10rem;
+    right: -1%;
     padding: 1% 5%;
     z-index: 1; 
   }
@@ -50,16 +50,12 @@ header nav a{
   footer nav {
     display: flex;
     flex-direction: column;
-    margin: 0 auto;
-    align-items: center;
-    justify-content: space-evenly;
     gap: 0.5rem;
   }
   
   footer nav a {
     font-size: var(--step-1);
   }
-  
 }
 
 /* footer */
@@ -74,9 +70,6 @@ footer {
 footer nav {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
-  align-items: center;
-  justify-content: space-evenly;
   gap: 0.5rem;
 }
 
