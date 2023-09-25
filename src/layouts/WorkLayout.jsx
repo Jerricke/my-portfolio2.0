@@ -4,6 +4,8 @@ import TechStack from '../components/Work_Ticker/Work_Ticker';
 import './WorkLayout.css';
 import WorkCard from '../components/Work_Cards/WorkCard';
 import Portfolio from '../assets/Portfolio.png';
+import PicPoint from '../assets/PicPoint.png';
+import Triply_logo from '../assets/Triply_logo.png';
 
 export default function WorkLayout() {
   return (
@@ -19,20 +21,21 @@ export default function WorkLayout() {
           Projects
         </motion.h1>
         <div className="WorkLayout__projects">
+          <WorkCard img={PicPoint} title="PicPoint" path="PicPoint" />
+          <WorkCard img={Triply_logo} title="Triply" path="Triply" />
           <WorkCard title="Pokemon App" path="PokemonApp" />
           <WorkCard
             img={Portfolio}
             title="Portfolio Website"
             path="Portfolio"
           />
-          {/* <WorkCard title="work3" path="work3" /> */}
         </div>
 
         <div className="WorkLayout__details">
           <Outlet />
         </div>
       </div>
-      <div className="extraFooter">
+      {/* <div className="extraFooter">
         <ul className="extraFooterBtn">
           <li>
             <NavLink to="../about">About Me</NavLink>
@@ -41,7 +44,7 @@ export default function WorkLayout() {
             <NavLink to="../contact">Contact</NavLink>
           </li>
         </ul>
-      </div>
+      </div> */}
     </>
   );
 }

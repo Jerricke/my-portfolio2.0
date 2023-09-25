@@ -35,7 +35,9 @@ header {
 
 header nav {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
 header nav a{
@@ -43,6 +45,11 @@ header nav a{
   text-decoration: none;
   width: 8.5rem;
   background-color: var(--primary);
+}
+
+.TopNavBarPages a {
+  font-size: var(--step--1);
+  margin: 0 var(--step--2);
 }
 
 

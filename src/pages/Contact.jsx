@@ -10,7 +10,7 @@ export default function Contact() {
         <ContactDesc />
         <ContactForm />
       </div>
-      <div className="extraFooter">
+      {/* <div className="extraFooter">
         <ul className="extraFooterBtn">
           <li>
             <NavLink to="../about">About Me</NavLink>
@@ -19,7 +19,7 @@ export default function Contact() {
             <NavLink to="../work">My Work</NavLink>
           </li>
         </ul>
-      </div>
+      </div> */}
     </>
   );
 }

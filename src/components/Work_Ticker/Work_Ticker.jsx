@@ -9,6 +9,8 @@ import {
   DiReact,
   DiTerminal,
 } from 'react-icons/di';
+import { TbSql } from 'react-icons/tb';
+import { BiLogoFlask, BiLogoFirebase } from 'react-icons/bi';
 
 import { FaFigma } from 'react-icons/fa';
 import { motion } from 'framer-motion';
@@ -20,7 +22,19 @@ export default function TechStack() {
       animate={{ opacity: 1 }}
       transition={{ duration: 1, ease: 'easeIn' }}
     >
-      <Marquee autoFill pauseOnHover className="ticker">
+      <Marquee autoFill className="ticker">
+        <div>
+          <TbSql />
+          <p>SQL</p>
+        </div>
+        <div>
+          <BiLogoFirebase />
+          <p>Firebase</p>
+        </div>
+        <div>
+          <BiLogoFlask />
+          <p>Flask</p>
+        </div>
         <div>
           <DiPython />
           <p>Python</p>
@@ -48,6 +62,10 @@ export default function TechStack() {
         <div>
           <DiReact />
           <p>React.JS</p>
+        </div>
+        <div>
+          <DiReact />
+          <p>React Native</p>
         </div>
         <div>
           <DiTerminal />

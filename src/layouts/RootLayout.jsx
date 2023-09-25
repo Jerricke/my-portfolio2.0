@@ -5,10 +5,15 @@ export default function RootLayout() {
   return (
     <div className="root-layout">
       <header>
-        <nav>
+        <nav className="TopNavBar">
           <NavLink to="/">Jerrick</NavLink>
-          <hr />
+          <div className="TopNavBarPages">
+            <NavLink to="/about">About Me</NavLink>
+            <NavLink to="/work">My Work</NavLink>
+            <NavLink to="/contact">Contact Me</NavLink>
+          </div>
         </nav>
+        <hr />
       </header>
 
       <main>

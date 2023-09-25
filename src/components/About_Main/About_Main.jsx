@@ -25,16 +25,18 @@ export default function AboutMain() {
           >
             Growing up with tech always right beside me, I&apos;ve spent
             countless amounts of time playing around with different web and
-            mobile applicaitons.{' '}
+            mobile applicaitons.
           </motion.p>
           <motion.p
             initial={initial}
             animate={animation}
             transition={{ type: 'spring', delay: 0.7 }}
           >
-            As a student at Flatiron school, not only am I learning programming
-            at a face pace environment, I am constantly pushing myself to learn
-            more than the curriculum.
+            With a background in Chemical Engineering, I pride myself with my
+            ability to understand processes and learn new skills in a systematic
+            and logical manner. And as a student at Flatiron school, I am
+            constantly pushing my boundaries and learning new tech skills even
+            under the pressure of a fast pace learning environment.
           </motion.p>
           <motion.p
             initial={initial}
@@ -58,7 +60,7 @@ export default function AboutMain() {
           <VisualAnimation />
         </div>
       </motion.div>
-      <div className="extraFooter">
+      {/* <div className="extraFooter">
         <ul className="extraFooterBtn">
           <li>
             <NavLink to="../work">My Work</NavLink>
@@ -67,7 +69,7 @@ export default function AboutMain() {
             <NavLink to="../contact">Contact</NavLink>
           </li>
         </ul>
-      </div>
+      </div> */}
     </>
   );
 }
