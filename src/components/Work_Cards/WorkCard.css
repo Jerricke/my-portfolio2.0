@@ -1,5 +1,5 @@
 .card {
-    width: 20rem;
+    width: 12.5rem;
     border-radius: 16px;
     position: relative;
     padding: 0.25rem;
@@ -15,7 +15,6 @@
     transition: 0.5s;
     border-radius: 16px;
   }
-  
   .card .overlay {
     position: absolute;
     padding: 1%;
@@ -47,7 +46,10 @@
   }
 
   @media (max-width: 425px) {
+    .card .overlay a {
+      padding: 6px 12px;
+    }
     .card {
-      width: 55vw;
+      width: 25vw;
     }
   }

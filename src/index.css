@@ -4,6 +4,8 @@
     --tertiary: #6D5D6E;
     --text: #F4EEE0;
 
+    --step--4: clamp(0.51rem, calc(0.55rem + 0.59vw), 0.82rem);
+    --step--3: clamp(0.64rem, calc(0.60rem + 0.66vw), 1.00rem);
     --step--2: clamp(0.78rem, calc(0.64rem + 0.71vw), 1.28rem);
     --step--1: clamp(0.94rem, calc(0.75rem + 0.95vw), 1.60rem);
     --step-0: clamp(1.13rem, calc(0.88rem + 1.25vw), 2.00rem);

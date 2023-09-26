@@ -8,9 +8,9 @@ export default function RootLayout() {
         <nav className="TopNavBar">
           <NavLink to="/">Jerrick</NavLink>
           <div className="TopNavBarPages">
-            <NavLink to="/about">About Me</NavLink>
-            <NavLink to="/work">My Work</NavLink>
-            <NavLink to="/contact">Contact Me</NavLink>
+            <NavLink to="/about">About</NavLink>
+            <NavLink to="/work">Work</NavLink>
+            <NavLink to="/contact">Contact</NavLink>
           </div>
         </nav>
         <hr />

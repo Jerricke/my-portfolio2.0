@@ -46,8 +46,6 @@ header nav a{
   background-color: var(--primary);
 }
 
-.TopNavBarPages {
-}
 
 .TopNavBarPages a {
   font-size: var(--step--2);
@@ -132,6 +130,9 @@ main {
 
 
 @media (max-width: 425px) {
+  .TopNavBarPages a {
+    margin: 0 0.25rem;
+  }
   .extraFooter {
     top: 1%;
   }
