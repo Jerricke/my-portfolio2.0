@@ -1,7 +1,10 @@
-.aboutSection {
-    display: flex;
-    margin-top: 10%;
+#about {
     margin-inline: 3%;
+}
+
+.aboutSection {
+    margin-top: 7.5%;
+    display: flex;
     flex-flow: row wrap;
     gap: 2rem;
   }
@@ -29,9 +32,11 @@
     width: 40rem;
     height: auto;
     margin-top: 5%;
+    align-self: center;
+    justify-self: center;
 }
-  
-  
+
+
 /* ABOUT SECTION */
 
 @media (max-width: 425px) {
