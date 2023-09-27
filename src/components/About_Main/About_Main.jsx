@@ -1,6 +1,11 @@
 import './About.css';
 import { motion } from 'framer-motion';
 import VisualAnimation from './VisualAnimation';
+import Gib from '../../assets/Gib.jpeg';
+import Latte from '../../assets/Latte.jpeg';
+import Mocha from '../../assets/Mocha.jpeg';
+import TUL1 from '../../assets/TUL1.jpeg';
+import TUL2 from '../../assets/TUL2.jpeg';
 
 export default function AboutMain() {
   const initial = { opacity: 0, translateY: -50 };
@@ -70,6 +75,10 @@ export default function AboutMain() {
           world! My love for traveling was seeded by my parents, who gave me the
           blessing and opportunity to travel at an early age.
         </p>
+        <div className="about__img__container">
+          <img src={TUL1} className="fade-in about__img" alt="TUL1" />
+          <img src={TUL2} className="fade-in about__img" alt="TUL2" />
+        </div>
         <p className="fade-in">
           Recently going on my first solo-trip in Europe, I had the opportunity
           to volunteer for the <strong>Ukrainian refugees</strong> at a center
@@ -81,6 +90,11 @@ export default function AboutMain() {
           and added value to my life in some ways.
         </p>
         <h3 className="fade-in">A Coffee Lover</h3>
+        <div className="about__img__container">
+          <img src={Gib} className="fade-in about__img2" alt="Gib" />
+          <img src={Mocha} className="fade-in about__img2" alt="Mocha" />
+          <img src={Latte} className="fade-in about__img2" alt="Latte" />
+        </div>
         <p className="fade-in">
           In January 2023, while I was self-learning web development, I picked
           up a part-time job as a coffee barista! Through a very routine and
