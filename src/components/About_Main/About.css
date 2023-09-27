@@ -7,35 +7,55 @@
     display: flex;
     flex-flow: row wrap;
     gap: 2rem;
-  }
-  
-  .aboutSection .aboutMe {
-    flex: 1 1 20rem
-  }
-  
-  .aboutSection .aboutMe h1 {
-    font-size: var(--step-3);
-    padding-bottom: 1rem;
-  }
-
-  .aboutSection .aboutMe hr {
-    margin-bottom: 1rem;
-  }
-
-  .aboutSection .aboutMe p{
-    font-size: var(--step--2);
-    padding-bottom: 1rem;
-  }
-  
-  .aboutSection .aboutAnimation {
-    flex: 1 1 30rem;
-    width: 40rem;
-    height: auto;
-    margin-top: 5%;
-    align-self: center;
-    justify-self: center;
 }
 
+.aboutSection .aboutMe {
+flex: 1 1 20rem
+}
+
+.aboutSection .aboutMe h1 {
+font-size: var(--step-3);
+padding-bottom: 1rem;
+}
+
+.aboutSection .aboutMe hr {
+margin-bottom: 1rem;
+}
+
+.aboutSection .aboutMe p{
+font-size: var(--step--2);
+padding-bottom: 1rem;
+text-align: justify
+}
+
+.aboutSection .aboutAnimation {
+flex: 1 1 30rem;
+width: 40rem;
+height: auto;
+margin-top: 5%;
+align-self: center;
+justify-self: center;
+}
+
+.about__hobby {
+    margin-top: 1rem;
+}
+
+.about__hobby h1 {
+    font-size: var(--step-2);
+
+}
+
+.about__hobby h3 {
+    font-size: var(--step-1);
+    margin: 0.5rem 0;
+}
+
+.about__hobby p {
+    font-size: var(--step--2);
+    text-align: justify;
+    margin: 0.5rem 0;
+}
 
 /* ABOUT SECTION */
 

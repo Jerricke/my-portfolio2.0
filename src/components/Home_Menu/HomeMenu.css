@@ -46,8 +46,8 @@
 
 .homeMenu__router li:hover {
     scale: 1.2;
-    background: linear-gradient(var(--tertiary), var(--text));
-    border: 2px var(--secondary) solid;;
+    /* background: linear-gradient(var(--tertiary), var(--text)); */
+    border: 2px var(--secondary) solid;
 }
 
 .homeMenu__router li a {
@@ -60,7 +60,7 @@
 }
 
 .homeMenu__router li a:hover {
-    color: var(--primary);
+    /* color: var(--primary); */
 }
 
 @media (max-width: 1024px) {
