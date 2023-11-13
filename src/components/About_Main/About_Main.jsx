@@ -46,7 +46,7 @@ export default function AboutMain() {
             animate={animation}
             transition={{ type: 'spring', delay: 0.8 }}
           >
-            I havea strong desire to build, and I&apos;ve picked up many
+            I have a strong desire to build, and I&apos;ve picked up many
             different programming skills to deliver the most interactive and
             engaging applicationsmotion..
           </motion.p>
@@ -82,12 +82,12 @@ export default function AboutMain() {
         <p className="fade-in">
           Recently going on my first solo-trip in Europe, I had the opportunity
           to volunteer for the <strong>Ukrainian refugees</strong> at a center
-          in <strong>Wawrsaw, Poland</strong>. The experience was truly
+          in <strong>Warsaw, Poland</strong>. The experience was truly
           eye-opening and having to spend time with those directly affected by
           the war taught me invaluable lessons. Then after my stay in Poland
-          ended, I visited and explored a few of the baltic states, Findland,
-          and Denmark. In each of these countries, I made meaningful connections
-          and added value to my life in some ways.
+          ended, I visited and explored a few of the baltic states, Finland, and
+          Denmark. In each of these countries, I made meaningful connections and
+          added value to my life in some ways.
         </p>
         <h3 className="fade-in">A Coffee Lover</h3>
         <div className="about__img__container">
