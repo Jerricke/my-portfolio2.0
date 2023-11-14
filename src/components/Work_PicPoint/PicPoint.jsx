@@ -17,9 +17,13 @@ export default function PicPoint() {
         exit={{ opacity: 0 }}
       >
         <h1>PicPoint</h1>
-        <a href="https://github.com/Jerricke/PicPoint">
-          https://github.com/Jerricke/PicPoint
+        <a
+          href="https://github.com/Jerricke/PicPoint"
+          style={{ marginRight: '12px' }}
+        >
+          Source Code
         </a>
+        <a href="https://youtu.be/pn4-_w-nk4U">Demo Video</a>
         <div className="imageContainer" style={{ gap: '1rem' }}>
           <img
             src="/image-1.png"

@@ -79,6 +79,14 @@
   border: 1px solid var(--text)
 }
 
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: red
+}
+
 @media (max-width: 425px) {
 
 }

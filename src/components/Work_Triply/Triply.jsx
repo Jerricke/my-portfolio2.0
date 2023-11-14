@@ -16,9 +16,13 @@ export default function Triply() {
         exit={{ opacity: 0 }}
       >
         <h1>Triply</h1>
-        <a href="https://github.com/cmphill/python-p4-project-vite">
-          https://github.com/cmphill/python-p4-project-vite
+        <a
+          href="https://github.com/cmphill/python-p4-project-vite"
+          style={{ marginRight: '12px' }}
+        >
+          Source Code
         </a>
+        <a href="https://youtu.be/hW1GB-I-PP0">Demo Video</a>
         <div className="imageContainer">
           <img src="/triply-1.png" alt="triply-1" />
           <img src="/triply-2.png" alt="triply-2" />
