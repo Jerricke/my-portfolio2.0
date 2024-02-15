@@ -26,9 +26,9 @@ export default function AboutMain() {
             animate={animation}
             transition={{ type: 'spring', delay: 0.6 }}
           >
-            Growing up with tech always right beside me, I&apos;ve spent
-            countless amounts of time playing around with different web and
-            mobile applicaitons.
+            Growing up with tech and science always right beside me, I&apos;ve
+            spent countless amounts of time hovering on the internet, learning
+            and absorbing many different skills and knowledge.
           </motion.p>
           <motion.p
             initial={initial}
@@ -46,9 +46,10 @@ export default function AboutMain() {
             animate={animation}
             transition={{ type: 'spring', delay: 0.8 }}
           >
-            I have a strong desire to build, and I&apos;ve picked up many
-            different programming skills to deliver the most interactive and
-            engaging applicationsmotion..
+            I have a strong desire to learn and build, and I&apos;ve picked up
+            many different technical skills to incorporate them into my
+            development process. Ensuring that I am a well rounded engineer who
+            isn't afraid of branching out and learning new technologies.
           </motion.p>
           <motion.p
             initial={initial}
@@ -112,7 +113,7 @@ export default function AboutMain() {
           solidified my love for making every coffee a beauitifully crafted
           drink.
         </p>
-        <h3 className="fade-in">A Gamer For Life</h3>
+        {/* <h3 className="fade-in">A Gamer For Life</h3>
         <p className="fade-in">
           I grew up with computers, and as far as I can remember, I&apos;ve
           always had a mouse in the grip of my palm. My passion for computers
@@ -123,7 +124,7 @@ export default function AboutMain() {
           <strong>gamifying my learning processes</strong>; I create arbitrary
           milestones, feeling as though I&apos;ve leveled up each time I learn a
           new tech skill, making learning so much fun!
-        </p>
+        </p> */}
       </div>
     </motion.div>
   );
