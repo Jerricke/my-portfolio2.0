@@ -46,10 +46,10 @@ export default function AboutMain() {
             animate={animation}
             transition={{ type: 'spring', delay: 0.8 }}
           >
-            I have a strong desire to learn and build, and I&apos;ve picked up
-            many different technical skills to incorporate them into my
-            development process. Ensuring that I am a well rounded engineer who
-            isn't afraid of branching out and learning new technologies.
+            I have a strong desire to learn and build. Ensuring that I am a well
+            rounded engineer who isn&apos;t afraid of branching out and learning
+            new technologies I&apos;ve picked up many different technical skills
+            to incorporate them into my development process.
           </motion.p>
           <motion.p
             initial={initial}
